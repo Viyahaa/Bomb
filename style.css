@@ -1,0 +1,132 @@
+body{
+    background-image: url("fruitbackground\ -\ Copy.png");
+    background-position: center;
+    background-repeat: repeat ;
+    width: 100%;
+    height: 100vh;
+}
+.row{
+    background-color: transparent;
+}
+.collapse navbar-collapse{
+    position: center;
+    border-radius: 5px;
+    background-color: #19c27b
+}
+.navbar-nav mr-auto{
+    position: center;
+    border-radius: 5px;
+    background-color: #06aa5e;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.navbar-nav .nav-link {
+    padding-right: 2em;
+    padding-left: 2rem;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+#window{
+    margin-top: 150px;
+    background-color:rgb(238, 240, 240);
+    color: #51a0f0;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+.swapbox_select {
+    width: 50%;
+    float: left;
+}
+.swapbox{
+    overflow: auto;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #dff5df;
+    border-radius: 20px;
+    border: 1px solid #565656;
+}
+.token_select{
+    padding:2px 0;
+    color: rgb(3, 37, 18);
+}
+.token_select:hover{
+    background-color: #bdd0f3;
+    cursor: pointer;
+    
+}
+.token_list_img, .token_image{
+    width: 40px;
+}
+.modal-body{
+    height: 600px;
+    overflow: scroll;
+}
+.token_row{
+    padding: 5px 10px;
+}
+.token_row:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+.bg-light {
+    background-color: #4dcca6!important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #087c08;
+    border-color: #04662a;
+    box-shadow: 0 0 5px rgb(17, 58, 34);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    color: rgb(2, 58, 2);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(253, 224, 59);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):hover {
+    color: rgb(4, 117, 80)
+}
+.jlSroa {
+    display: block;
+    margin-right: 8px;
+    box-sizing: border-box;
+    background-color: rgb(4, 117, 80);
+    display: ruby-base-container;
+    font-weight: 500;
+    font-family: 'Inter custom',sans-serif;
+    padding: 6px 8px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    border-style: none;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: auto;
+}
+.hWrBdF {
+    position: relative;
+    display: flex;
+    padding: 16px;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    background: none;
+    outline: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(206, 208, 217);
+    appearance: none;
+    font-size: 18px;
+    transition: border 100ms ease 0s;
+}
